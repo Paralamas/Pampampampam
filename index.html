@@ -10,31 +10,31 @@
 </head>
 <body class="fundo">
     <!-- Barra de navegação -->
-    <nav class="navbar navbar-expand-lg " id="nav">
+    <nav class="navbar navbar-expand-lg nav">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">LOGO</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <a class="navbar-brand para" href="./index.html">><img class="logos" src="./img/rainbowrock.png" alt="logo"></a>
+          <button class="navbar-toggler para" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Informações</a>
+          <div class="collapse navbar-collapse para" id="navbarNavDropdown">
+            <ul class="navbar-nav para">
+              <li class="nav-item para">
+                <a class="nav-link active font1" aria-current="page" href="./html/login.html" style="color:#ffffff ;">Login</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Ingressos</a>
+              <li class="nav-item para">
+                <a class="nav-link font1" href="./html/Informações.html" style="color:#ffffff ;">Ingressos</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Loja</a>
+              <li class="nav-item para">
+                <a class="nav-link font1" href="./html/loja.html" style="color:#ffffff ;">Loja</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li class="nav-item dropdown para">
+                <a class="nav-link dropdown-toggle font1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:#ffffff ;">
                   Explore
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item font1" href="./html/mapa.htmlx">Mapa</a></li>
+                  <li><a class="dropdown-item font1" href="#">Projetos</a></li>
+                  <li><a class="dropdown-item font1" href="#">Agradecimentos</a></li>
                 </ul>
               </li>
             </ul>
@@ -53,22 +53,22 @@
           <div class="carousel-item active">
             <img src="./img/metallica.jpg" class="d-block w-100" alt="1">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Esse é o metallica muito foda</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5>Metallica</h5>
+              <p>Com a participação especial do ator Joseph Quinn!!</p>
             </div>
           </div>
           <div class="carousel-item" id="carros">
-            <img src="./img/green-day.jpg" class="d-block w-100" alt="2">
+            <img src="./img/nirvana.jpg" class="d-block w-100" alt="2">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Green day não é emo</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h5>Nirvana</h5>
+              <p>Primeiro show da banda após a recuperação de Kurt</p>
             </div>
           </div>
           <div class="carousel-item" id="carros">
-            <img src="./img/Guns-N-Roses.jpg" class="d-block w-100" alt="3">
+            <img src="./img/guns-n-roses.jpg" class="d-block w-100" alt="3">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Show deles dia 24 AAAAA</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h5>Guns N Roses</h5>
+              <p>Pela primeira vez em ANOS, com a formação de Apetite for Destruction</p>
             </div>
           </div>
         </div>
@@ -82,85 +82,121 @@
         </button>
       </div>
       
+      <!-- card verm/lar/ama -->
+
+      <div class="card-group">
+        <div class="card" id="cardvermelha">
+          <img src="./img/vermelho.jpg" class="card-img-top" alt="vermelho" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt">Wellcome to the Jungle</h5>
+            <p  class="card-text txt">Guns and Roses / </p>
+            <p class="card-text txt" ><small class="text-muted">2 de agosto</small></p>
+          </div>
+        </div>
+        <div class="card" id="cardvermelha">
+          <img src="./img/laranja.jpg" class="card-img-top" alt="laranja" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt" >Orange is the new black</h5>
+            <p class="card-text txt" >This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text txt" ><small class="text-muted">3 de agostp</small></p>
+          </div>
+        </div>
+        <div class="card" id="cardvermelha">
+          <img src="./img/amarelo.jpg" class="card-img-top" alt="amarelo" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt" >Oh well, whatever, never mind</h5>
+            <p class="card-text txt" > Nirvana / Pearl Jam / Soundgarden / Foo Fighters</p>
+            <p class="card-text txt" ><small class="text-muted">4 de agosto</small></p>
+          </div>
+        </div>
+      </div>
       
-<!-- Card vermelha -->
-      <div class="card text-bg-dark" id="cardvermelha">
-        <img src="./img/vermelho.jpg" class="card-img" alt="vermelho" id="cores">
-        <div class="card-img-overlay" >
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small></small></p>
+      <!-- card verd/azul/rox -->
+
+      <div class="card-group">
+        <div class="card" id="cardverde">
+          <img src="./img/verde.jpg" class="card-img-top" alt="verde" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt"></h5>
+            <p class="card-text txt" >Paralamas do Sucesso / Charlie brow Jr / Legião Urbana</p>
+            <p class="card-text txt" ><small class="text-muted">5 de agosto</small></p>
+          </div>
+        </div>
+        <div class="card" id="cardverde">
+          <img src="./img/azul.jpg" class="card-img-top" alt="azul" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt" >No alarms, and no suprises</h5>
+            <p class="card-text txt">Radiohead / Keane / Oasis</p>
+            <p class="card-text txt" ><small class="text-muted">6 de agosto</small></p>
+          </div>
+        </div>
+        <div class="card" id="cardverde">
+          <img src="./img/roxo.jpg" class="card-img-top" alt="roxo" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt">Oh,the misery,everybody wants to be my enemy</h5>
+            <p class="card-text txt">Gorillaz / Imagine Dragons</p>
+            <p class="card-text txt"><small class="text-muted">7 de agosto</small></p>
+          </div>
         </div>
       </div>
 
-      <!-- Card laranja -->
-      <div class="card text-bg-dark" id="card">
-        <img src="./img/laranja.jpg" class="card-img" alt="laranja" id="cores">
-        <div class="card-img-overlay" >
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small></small></p>
+      <!-- card pre/mar/!! -->
+
+      <div class="card-group">
+        <div class="card" id="cardverde">
+          <img src="./img/rosa.jpg" class="card-img-top" alt="rosa" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt">Card title</h5>
+            <p class="card-text txt">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text txt"><small class="text-muted">8 de agosto</small></p>
+          </div>
+        </div>
+        <div class="card" id="cardverde">
+          <img src="./img/preto.jpg" class="card-img-top" alt="preto" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt">Obey your master</h5>
+            <p class="card-text txt">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text txt"><small class="text-muted">9 de agosto</small></p>
+          </div>
+        </div>
+        <div class="card" id="cardverde">
+          <img src="./img/marrom.jpg" class="card-img-top" alt="marrom" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt">Card title</h5>
+            <p class="card-text txt">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text txt"><small class="text-muted">10 de agosto</small></p>
+          </div>
         </div>
       </div>
 
-      <!-- Card laranja -->
-      <div class="card text-bg-dark" id="card">
-        <img src="./img/amarelo.jpg" class="card-img" alt="amarelo" id="cores">
-        <div class="card-img-overlay" >
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+      <div class="mb-3 diga">
+        <label for="exampleFormControlInput1" class="form-label txt">Endereço de email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3 diga">
+        <label for="exampleFormControlTextarea1" class="form-label txt">Nos conte oque achou do show!!</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> 
+        <br>
+        <a href="#" class="btn btn-primary">Enviar</a>
+      </div>
+
+       <!-- anuncio -->
+
+      <div class="card text-bg-dark">
+        <img src="./img/naobebepoha.jpg" class="card-img" alt="anuncio" id="anuncio">
+        <div class="card-img-overlay">
+          <h5 class="card-title"></h5>
+          <p class="card-text"></p>
           <p class="card-text"><small></small></p>
         </div>
       </div>
-
-      <!-- Card verde -->
-      <div class="card text-bg-dark" id="card">
-        <img src="./img/verde.jpg" class="card-img" alt="verde" id="cores">
-        <div class="card-img-overlay" >
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small></small></p>
-        </div>
-      </div>
-
-      <!-- Card azul -->
-      <div class="card text-bg-dark" id="card">
-        <img src="./img/azul.jpg" class="card-img" alt="azul" id="cores">
-        <div class="card-img-overlay" >
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small></small></p>
-        </div>
-      </div>
-
-      <!-- Card roxo -->
-      <div class="card text-bg-dark" id="card">
-        <img src="./img/roxo.jpg" class="card-img" alt="roxo" id="cores">
-        <div class="card-img-overlay" >
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small></small></p>
-        </div>
-      </div>
-
-      <!-- Card preto -->
-      <div class="card text-bg-dark" id="card">
-        <img src="./img/preto.jpg" class="card-img" alt="preto" id="cores">
-        <div class="card-img-overlay" >
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small></small></p>
-        </div>
-      </div>
-
-      <!-- Card preto -->
-      <div class="card text-bg-dark" id="card">
-        <img src="./img/marrom.jpg" class="card-img" alt="marrom" id="cores">
-        <div class="card-img-overlay" >
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small></small></p>
-        </div>
+      
+      <!-- apoiadores -->
+      <div id="apoiadores">
+        <h5 class="font1 apoie txt">Apoiadores Principais</h5> 
+        <img class="amigos" src="./img/GreenDay.png" alt="greenday"> <img class="amigos" src="./img/Nike.png" alt="nike"> <img id="amigo" src="./img/SkaterStyle.png" alt="SkaterStyle"> <img id="coca" src="./img/cocacola.png" alt="cocacola"> <img class="amigos" src="./img/americanas.png" alt="americanas"> <br> 
+        <img id="amigo1" src="./img/MauroReceitas.jpg" alt="MauroReceitas"> <img id="amigo2" src="./img/JapierCoffe.jpg" alt="JapierCoffe"> <img id="Heineken" src="./img/Heineken.png" alt="Heineken">
       </div>
 
  <!-- Bootstrap JavaScript Libraries -->

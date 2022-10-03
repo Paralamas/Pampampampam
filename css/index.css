@@ -1,25 +1,175 @@
 .fundo{
     background-color: #0d0d0d;
 }
-#nav{
-    background-color: dimgrey;
+.nav{
+    background-color: #0d0d0d;
+}
+
+.txt{
+    color: aliceblue;
+}
+
+.para{
+    margin-right: 140px;
 }
 
 #carros{
     width: 100%;
-    height: 700px;
+    height: 500px;
+    
 }
- #cores{
-    width: 100%;
-    height: 100px;
- }
+ 
 #cardvermelha{
     margin-top: 50px;
+    background-color: #0d0d0d;
 }
+#cardverde{
+    margin-top: 20px;
+    background-color: #0d0d0d;
+}
+
 #card{
     margin-top: 5px;
 }
 
+#anuncio{
+    width: 60%;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: 30px;
 
+}
+#apoiadores{
+    margin-top: 20px;
+    background-color: #555555;
+    width: 100%;
+}
 
+#login{
+    background-color: #0d0d0d;
+    width: 60%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 20%;
 
+}
+
+.logo{
+    margin-top: 50px;
+}
+
+#carros2{
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+}
+
+.produto{
+    margin-top: 20px;
+    width: 80%;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+#roda{
+    margin-top: 20px;
+    width: 100%;
+}
+
+#tit{
+    margin-left: 10%;
+}
+
+#textos{
+    background-color: #0d0d0d;
+    width: 80%;
+    height: 800px;
+    margin-top: 20px;
+    margin-left: 10%;
+
+}
+.diga{
+    margin-top: 20px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#mapa{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.logos{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+.amigos{
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#amigo{
+    width: 130px;
+    height: 90px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#amigo1{
+    width: 130px;
+    height: 90px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+#amigo2{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 80px;
+}
+#Heineken{
+    width: 110px;
+    height: 90px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+#coca{
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+.desce{
+   margin-top: 80px;
+}
+#nossoespaço{
+    margin-top: 50px;
+    margin-left: 47%;
+    font-family: Rock ;
+}
+@font-face {
+    font-family: "IndieRock";
+    src: url(../fontes/indierock/IndieRock.ttf)
+}
+@font-face {
+    font-family: "Rock";
+    src: url(../fontes/rockstar_4/Rockstar-ExtraBold.otf)
+}
+@font-face {
+    font-family: "rock1"; 
+    src: url(../fontes/i_am_a_rock/IAmaRock_Free_For_Personal_Use_Only.ttf)
+}
+.font{
+    font-family: Rock ;
+}
+.font1{
+    font-family: rock1;
+}
+.apoie{
+    margin-top: 10px;
+    margin-left: 10%;
+}
